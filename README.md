@@ -2,6 +2,7 @@
 
 **NodeMCU (ESP8266) firmware that reads a DHT11 sensor every two seconds and prints temperature and humidity over serial.**
 
+[![Build firmware](https://github.com/Utkarsh151-glitch/ESP-PROJECT-TEMPREATURE-SENSOR-/actions/workflows/build.yml/badge.svg)](https://github.com/Utkarsh151-glitch/ESP-PROJECT-TEMPREATURE-SENSOR-/actions/workflows/build.yml)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-build-F5822A?logo=platformio&logoColor=white)
 ![ESP8266](https://img.shields.io/badge/ESP8266-NodeMCU-000000?logo=espressif&logoColor=white)
 ![Arduino framework](https://img.shields.io/badge/Arduino-framework-00979D?logo=arduino&logoColor=white)
