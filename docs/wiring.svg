@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Wiring: DHT11 to NodeMCU (ESP8266)</title>
+  <rect x="0" y="0" width="640" height="300" rx="14" fill="#ffffff"/>
+
+  <!-- NodeMCU -->
+  <rect x="40" y="50" width="200" height="200" rx="10" fill="#1F3864"/>
+  <text x="140" y="85" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">NodeMCU v1.0</text>
+  <text x="140" y="106" fill="#c8d3ea" font-size="13" text-anchor="middle">ESP8266 (ESP-12E)</text>
+  <g font-size="13" fill="#ffffff">
+    <circle cx="240" cy="150" r="6" fill="#ffffff"/><text x="226" y="155" text-anchor="end">3V3</text>
+    <circle cx="240" cy="190" r="6" fill="#ffffff"/><text x="226" y="195" text-anchor="end">D4 (GPIO2)</text>
+    <circle cx="240" cy="230" r="6" fill="#ffffff"/><text x="226" y="235" text-anchor="end">GND</text>
+  </g>
+
+  <!-- DHT11 -->
+  <rect x="420" y="50" width="160" height="200" rx="10" fill="#2E7D9A"/>
+  <text x="500" y="85" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">DHT11</text>
+  <text x="500" y="106" fill="#d6eef5" font-size="13" text-anchor="middle">temperature + humidity</text>
+  <g font-size="13" fill="#ffffff">
+    <circle cx="420" cy="150" r="6" fill="#ffffff"/><text x="436" y="155">VCC</text>
+    <circle cx="420" cy="190" r="6" fill="#ffffff"/><text x="436" y="195">DATA</text>
+    <circle cx="420" cy="230" r="6" fill="#ffffff"/><text x="436" y="235">GND</text>
+  </g>
+
+  <!-- wires -->
+  <line x1="246" y1="150" x2="414" y2="150" stroke="#D32F2F" stroke-width="4" stroke-linecap="round"/>
+  <line x1="246" y1="190" x2="414" y2="190" stroke="#F9A825" stroke-width="4" stroke-linecap="round"/>
+  <line x1="246" y1="230" x2="414" y2="230" stroke="#424242" stroke-width="4" stroke-linecap="round"/>
+  <g font-size="12" fill="#333333" text-anchor="middle">
+    <text x="330" y="142">VCC (3.3 V)</text>
+    <text x="330" y="182">DATA</text>
+    <text x="330" y="222">GND</text>
+  </g>
+
+  <text x="320" y="282" fill="#555555" font-size="12" text-anchor="middle">Bare 4-pin DHT11: add a 10 kΩ pull-up between DATA and 3V3 (most modules include one).</text>
+</svg>
